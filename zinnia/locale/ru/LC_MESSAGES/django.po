@@ -69,7 +69,7 @@ msgstr "Результаты поиска для запроса '%s'"
 #: feeds.py:226
 #, python-format
 msgid "The entries containing the pattern '%s'"
-msgstr "Записи содержать сочетание '%s'"
+msgstr "Записи содержащие сочетание '%s'"
 
 #: feeds.py:271
 msgid "Latest discussions"
@@ -113,12 +113,12 @@ msgstr "Последние пингбэки к %s"
 #: feeds.py:377
 #, python-format
 msgid "Trackbacks on %s"
-msgstr "Трэкбэки к %s"
+msgstr "Архивы к %s"
 
 #: feeds.py:381
 #, python-format
 msgid "The latest trackbacks for the entry %s"
-msgstr "Последние трэкбэки к %s"
+msgstr "Последние архивы к %s"
 
 #: moderator.py:59 moderator.py:80 moderator.py:101
 #, python-format
@@ -197,7 +197,7 @@ msgstr "Выбранные записи теперь закреплены за �
 
 #: admin/entry.py:216
 msgid "Set the entries to the user"
-msgstr "Установить записи пользователю"
+msgstr "Закрепить записи за пользователем"
 
 #: admin/entry.py:223
 msgid "The selected entries are now marked as published."
@@ -266,19 +266,19 @@ msgstr "Оповестить каталоги о выбранных запися
 
 #: admin/entry.py:309
 msgid "Selected entries are now marked as featured."
-msgstr ""
+msgstr "Выделенные записи отмечены как избранные"
 
 #: admin/entry.py:310
 msgid "Mark selected entries as featured"
-msgstr ""
+msgstr "Пометить выделенные записи как избранное"
 
 #: admin/entry.py:316
 msgid "Selected entries are no longer marked as featured."
-msgstr ""
+msgstr "Выделенные записи убраны из избранного"
 
 #: admin/entry.py:318
 msgid "Unmark selected entries as featured"
-msgstr ""
+msgstr "Убрать выделенные записи из избранного"
 
 #: admin/filters.py:27
 #, python-format
@@ -320,11 +320,11 @@ msgstr "категории"
 
 #: models/category.py:22 models/entry.py:55
 msgid "slug"
-msgstr "слуг"
+msgstr "синоним"
 
 #: models/category.py:23
 msgid "Used to build the category's URL."
-msgstr "Успользуется для создания урла категории."
+msgstr "Успользуется для создания URL категории."
 
 #: models/category.py:26
 msgid "description"
@@ -348,7 +348,7 @@ msgstr "опубликована"
 
 #: models/entry.py:57 models/entry.py:78
 msgid "Used to build the entry's URL."
-msgstr "Успользуется для создания урла записи."
+msgstr "Успользуется для создания URL записи."
 
 #: models/entry.py:60
 msgid "status"
@@ -420,7 +420,7 @@ msgstr "трэкбэки разрешены"
 
 #: models/entry.py:211
 msgid "Allows trackbacks if checked."
-msgstr "Если отмечено, разрешаются трэкбэки."
+msgstr "Если отмечено, разрешаeтся показывать трэкбеки."
 
 #: models/entry.py:214
 msgid "comment count"
